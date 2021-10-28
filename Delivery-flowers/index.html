@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Доставка цветов и игрушек</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <img src="img/logo.svg" alt="логотип: Вам подарок" />
+        <p class="time-delivery">
+          Среднее время доставки <span class="time">30 минут</span>
+        </p>
+        <a href="tel:89032546577" class="phone">+7 (903) 254 - 65 - 77</a>
+      </header>
+      <main class="main">
+        <section class="description">
+          <h1>Доставка цветов и игрушек</h1>
+          <p class="description-text">
+            Соберите заказ, а мы доставим его в&nbsp;кратчайшие сроки.<br /><br />Доставка
+            по&nbsp;городу у&nbsp;нас бесплатная. Расчет стоимости по области
+            вы&nbsp;увидите при оформлении заказа.
+          </p>
+          <div class="buttons">
+            <input type="button" value="Цветы" class="btn btn-flower btn-active">
+            <input type="button" value="Игрушки" class="btn btn-toys">
+          </div>
+          <form action="" method="GET" class="input-group">
+            <input
+              type="phone"
+              placeholder="(000) 000 00 00"
+              class="phone-input"
+              pattern="\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}\s?\d{2}\s?\d{2}"
+              required
+              />
+            <button type="submit" class="button-next">
+              <img src="img/arrow.svg" alt="Далее" />
+            </button>
+          </form>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-pay">
+          <p class="footer-text">Принимаем оплату:</p>
+          <div class="footer-icons footer-cards">
+            <img src="img/Mastercard.svg" alt="Mastercard" />
+            <img src="img/Visa.svg" alt="Visa" />
+            <img src="img/Qiwi.svg" alt="Qiwi" />
+          </div>
+        </div>
+        <div class="social-links">
+          <p class="footer-text">Мы в соцсетях:</p>
+          <div class="footer-icons footer-social">
+            <a href="#" class="social-link"><img src="img/instagram.svg" alt="instagram" /></a>
+            <a href="#" class="social-link"><img src="img/telegram.svg" alt="telegram" /></a>
+            <a href="#" class="social-link"><img src="img/whatsapp.svg" alt="whatsapp" /></a>
+            <a href="#" class="social-link"><img src="img/facebook.svg" alt="facebook" /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
